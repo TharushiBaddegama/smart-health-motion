@@ -1,10 +1,10 @@
 import { model, models, Schema } from "mongoose";
 
 export interface IRecord {
-	position: String;
-	temperature: Number;
-	humidity: Number;
-	noice: Number;
+	movement: String;
+	stepCount: Number;
+	heartRate: Number;
+	fallDetection: Boolean,
 	time: String;
 }
 const RecordSchema = new Schema<IRecord>(
