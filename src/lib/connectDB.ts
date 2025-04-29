@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';  
   
-const MONGO_URI = "mongodb+srv://malithdilshan27:x9tt4QkIMQca2jRk@cluster0.xxj4hkd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";  
+const MONGO_URI = "mongodb+srv://baddegamatharushi:123@cluster0.hv9lnnm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";  
 const cached: { connection?: typeof mongoose; promise?: Promise<typeof mongoose> } = {};  
 async function connectMongo() {  
     if (!MONGO_URI) {  

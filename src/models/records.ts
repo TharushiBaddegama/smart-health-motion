@@ -9,10 +9,10 @@ export interface IRecord {
 }
 const RecordSchema = new Schema<IRecord>(
 	{
-		position: String,
-		temperature: Number,
-		humidity: Number,
-		noice: Number,
+		movement: String,
+		stepCount: Number,
+		heartRate: Number,
+		fallDetection: Boolean,
 		time: {
             type: Date,
             default: Date.now
